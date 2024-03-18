@@ -1,11 +1,13 @@
+import About from "../../components/About/About";
 import Hero from "../../components/Hero/Hero";
-import localStyles from "./Home.module.css";
+import Page from "../../components/Page/Page";
 
 const Home = () => {
     return (
-        <div className={localStyles.page}>
+        <Page>
             <Hero />
-        </div>
+            <About />
+        </Page>
     );
 };
 

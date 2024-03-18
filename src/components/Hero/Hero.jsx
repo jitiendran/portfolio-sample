@@ -1,9 +1,10 @@
 import localStyles from "./Hero.module.css";
 import data from "../../assets/data/data.json";
+import Card from "../Card/Card";
 
 const Hero = () => {
     return (
-        <header className={localStyles.card}>
+        <Card className={localStyles.card}>
             <div
                 className={localStyles["banner-img"]}
                 style={{
@@ -24,7 +25,7 @@ const Hero = () => {
                     <h4>{data.headLine}</h4>
                 </div>
             </section>
-        </header>
+        </Card>
     );
 };
 

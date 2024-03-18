@@ -3,5 +3,6 @@
     "lastname": "Musk",
     "bannerImg": "/public/images/banner.jpg",
     "profileImg": "/public/images/profile.jpg",
-    "headLine": "CEO @ Tesla | Owner @ Twitter"
+    "headLine": "CEO @ Tesla | Owner @ Twitter",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus."
 }

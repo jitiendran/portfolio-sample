@@ -1,14 +1,24 @@
 .row-layout {
-    display: flex;
-    gap: 2rem;
-    margin-top: 0.5rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
 }
 .row-image {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 .row-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.projects-row {
+  max-width: 60%;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,69 +1,96 @@
 {
-    "firstname": "Elon",
-    "lastname": "Musk",
-    "bannerImg": "/public/images/banner.jpg",
-    "profileImg": "/public/images/profile.jpg",
-    "headLine": "CEO @ Tesla | Owner @ Twitter",
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus.",
-    "experiences": [
-        {
-            "id": "1",
-            "companyName": "Tesla",
-            "companyLogo": "/public/images/tesla-logo.jpg",
-            "position": "CTO",
-            "employmentType": "Full-time",
-            "from": "Aug 1999",
-            "to": "Present",
-            "noOfYears": "25 yrs"
-        },
-        {
-            "id": "2",
-            "companyName": "Tesla",
-            "companyLogo": "/public/images/tesla-logo.jpg",
-            "position": "CTO",
-            "employmentType": "Full-time",
-            "from": "Aug 1999",
-            "to": "Present",
-            "noOfYears": "25 yrs"
-        },
-        {
-            "id": "3",
-            "companyName": "Tesla",
-            "companyLogo": "/public/images/tesla-logo.jpg",
-            "position": "CTO",
-            "employmentType": "Full-time",
-            "from": "Aug 1999",
-            "to": "Present",
-            "noOfYears": "25 yrs"
-        }
-    ],
-    "educations": [
-        {
-            "id": "1",
-            "instituteName": "Stanford University",
-            "instituteLogo": "/public/images/stanford-logo.jpg",
-            "program": "MS Computer Science",
-            "percentage": "99.99%",
-            "from": "Aug 1999",
-            "to": "Aug 2001"
-        },
-        {
-            "id": "2",
-            "instituteName": "Stanford University",
-            "instituteLogo": "/public/images/stanford-logo.jpg",
-            "program": "MS Computer Science",
-            "percentage": "99.99%",
-            "from": "Aug 1999",
-            "to": "Aug 2001"
-        },
-        {
-            "id": "3",
-            "instituteName": "Stanford University",
-            "instituteLogo": "/public/images/stanford-logo.jpg",
-            "program": "MS Computer Science",
-            "percentage": "99.99%",
-            "from": "Aug 1999",
-            "to": "Aug 2001"
-        }
-    ]
+  "firstname": "Elon",
+  "lastname": "Musk",
+  "bannerImg": "/public/images/banner.jpg",
+  "profileImg": "/public/images/profile.jpg",
+  "headLine": "CEO @ Tesla | Owner @ Twitter",
+  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus.",
+  "experiences": [
+    {
+      "id": "1",
+      "companyName": "Tesla",
+      "companyLogo": "/public/images/tesla-logo.jpg",
+      "position": "CTO",
+      "employmentType": "Full-time",
+      "from": "Aug 1999",
+      "to": "Present",
+      "noOfYears": "25 yrs"
+    },
+    {
+      "id": "2",
+      "companyName": "Tesla",
+      "companyLogo": "/public/images/tesla-logo.jpg",
+      "position": "CTO",
+      "employmentType": "Full-time",
+      "from": "Aug 1999",
+      "to": "Present",
+      "noOfYears": "25 yrs"
+    },
+    {
+      "id": "3",
+      "companyName": "Tesla",
+      "companyLogo": "/public/images/tesla-logo.jpg",
+      "position": "CTO",
+      "employmentType": "Full-time",
+      "from": "Aug 1999",
+      "to": "Present",
+      "noOfYears": "25 yrs"
+    }
+  ],
+  "educations": [
+    {
+      "id": "1",
+      "instituteName": "Stanford University",
+      "instituteLogo": "/public/images/stanford-logo.jpg",
+      "program": "MS Computer Science",
+      "percentage": "99.99%",
+      "from": "Aug 1999",
+      "to": "Aug 2001"
+    },
+    {
+      "id": "2",
+      "instituteName": "Stanford University",
+      "instituteLogo": "/public/images/stanford-logo.jpg",
+      "program": "MS Computer Science",
+      "percentage": "99.99%",
+      "from": "Aug 1999",
+      "to": "Aug 2001"
+    },
+    {
+      "id": "3",
+      "instituteName": "Stanford University",
+      "instituteLogo": "/public/images/stanford-logo.jpg",
+      "program": "MS Computer Science",
+      "percentage": "99.99%",
+      "from": "Aug 1999",
+      "to": "Aug 2001"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Test-1",
+      "description": "This is a test project",
+      "githubUrl": "https://github.com/vercel"
+    },
+    {
+      "id": "2",
+      "title": "Test-2",
+      "description": "This is a test project",
+      "githubUrl": "https://github.com/vercel"
+    },
+    {
+      "id": "3",
+      "title": "Test-3",
+      "description": "This is a test project",
+      "githubUrl": "https://github.com/vercel"
+    }
+  ],
+  "skills": [
+    "Engineering",
+    "Web Development",
+    "Blockchain",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ]
 }

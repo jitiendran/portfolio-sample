@@ -72,11 +72,11 @@ const Home = () => {
         <h3>Projects</h3>
         <List>
           {data.projects.map((project) => (
-            <li key={project.id} className={cx("projects-row")}>
+            <li key={project.projectId} className={cx("projects-row")}>
               <div className={cx("justify-between")}>
-                <h4>{project.title}</h4>
+                <h4>{project.projectName}</h4>
                 <div className={cx("row-layout")}>
-                  <Link to={`project/${project.id}`}>
+                  <Link to={`project/${project.projectId}`}>
                     <BsBoxArrowUpRight size={20} />
                   </Link>
                   <a href={`${project.githubUrl}`} target="_blank">
@@ -85,7 +85,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <p>{project.description}</p>
+                <p>{project.oneLiner}</p>
               </div>
             </li>
           ))}
@@ -107,7 +107,7 @@ const Home = () => {
           <h4>Let's Connect</h4>
           <p>
             Feel free to write a feedback to{" "}
-            <a href="mailto:jitiendranjiji2000@gmail.com">Jitiendran</a>
+            <a style={{textDecoration: 'underline'}} href="mailto:jitiendranjiji2000@gmail.com">Elon Musk</a>
           </p>
 
           <div className={cx("footer-flex")}>
@@ -137,6 +137,9 @@ const Home = () => {
           </div>
         </div>
       </Card>
+      <footer style={{display: 'flex', justifyContent: 'center'}}>
+      Copyright 2024 | Elon Musk
+      </footer>
     </Page>
   );
 };

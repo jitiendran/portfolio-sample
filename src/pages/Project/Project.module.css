@@ -1,0 +1,14 @@
+.breadCrumbs li{
+    display: flex;
+    column-gap: 5px;
+    font-size: 18px;
+}
+.homebtn{
+    text-decoration: none;
+    color: black;
+}
+.project-title{
+    display: flex;
+    align-items: baseline;
+    column-gap: 10px;
+}

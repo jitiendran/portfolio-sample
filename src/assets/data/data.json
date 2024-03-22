@@ -1,105 +1,120 @@
 {
-  "firstname": "Elon",
-  "lastname": "Musk",
-  "bannerImg": "/public/images/banner.jpg",
-  "profileImg": "/public/images/profile.jpg",
-  "headLine": "CEO @ Tesla | Owner @ Twitter",
-  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus.",
-  "experiences": [
-    {
-      "id": "1",
-      "companyName": "Tesla",
-      "companyLogo": "/public/images/tesla-logo.jpg",
-      "position": "CTO",
-      "employmentType": "Full-time",
-      "from": "Aug 1999",
-      "to": "Present",
-      "noOfYears": "25 yrs"
-    },
-    {
-      "id": "2",
-      "companyName": "Space X",
-      "companyLogo": "/public/images/spacex.png",
-      "position": "Founder, CEO, CTO",
-      "employmentType": "Full-time",
-      "from": "Aug 2002",
-      "to": "Present",
-      "noOfYears": "23 yrs"
-    },
-    {
-      "id": "3",
-      "companyName": "X (Twitter)",
-      "companyLogo": "/public/images/x.png",
-      "position": "CEO",
-      "employmentType": "Full-time",
-      "from": "Oct 2022",
-      "to": "Jun 2023",
-      "noOfYears": "1 yr"
-    }
-  ],
-  "educations": [
-    {
-      "id": "1",
-      "instituteName": "Stanford University",
-      "instituteLogo": "/public/images/stanford-logo.jpg",
-      "program": "PhD Program in material science",
-      "percentage": "99.99%",
-      "from": "Aug 1995",
-      "to": "Aug 1997"
-    },
-    {
-      "id": "2",
-      "instituteName": "University of Pennsylvania",
-      "instituteLogo": "/public/images/pennsylvania.png",
-      "program": "B.S., Economics",
-      "percentage": "99.99%",
-      "from": "Jan 1993",
-      "to": "Aug 1995"
-    },
-    {
-      "id": "3",
-      "instituteName": "University of Pennsylvania",
-      "instituteLogo": "/public/images/pennsylvania.png",
-      "program": "B.A., - Physics",
-      "percentage": "99.99%",
-      "from": "Jan 1993",
-      "to": "Aug 1995"
-    }
-  ],
-  "projects": [
-    {
-      "projectId": 1,
-      "projectName": "Arlcix",
-      "timeline": "Aug 2024 - Sep 2024",
-      "oneLiner": "An Open Source CLI for Component Generation in React.",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae?",
-      "images" : ["/public/images/arclix1.png","/public/images/arclix2.png", "/public/images/arclix3.png","/public/images/arclix4.png","/public/images/arclix.png"],
-      "githubUrl": "https://github.com/arclix/core"
-    },
-    {
-      "projectId": 2,
-      "projectName": "Colorgrad",
-      "timeline": "Jan 2022 - Apr 2022",
-      "oneLiner": "Colors Give Life to Your Websites",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae?",
-      "images" : ["/public/images/colorgrad1.png","/public/images/colorgrad2.png", "/public/images/colorgrad3.png","/public/images/colorgrad.png"],
-      "githubUrl": "https://github.com/jitiendran/colorgrad-frontend"
-    },
-    {
-      "projectId": 3,
-      "projectName": "Cloud Clip",
-      "timeline": "Dec 2021 - Mar 2022",
-      "oneLiner": "Cloud Clip share text across globe",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae?",
-      "images" : ["/public/images/cloudclip.png","/public/images/cloudclip1.png", "/public/images/cloudclip2.png"],
-      "githubUrl": "https://github.com/jitiendran/Cloud-Clipboard"
-    }
-  ],
-  "skills": [
-    "Engineering",
-    "Web Development",
-    "Blockchain",
-    "Machine Learning",
-    "Artificial Intelligence"
-  ]
+    "firstname": "Elon",
+    "lastname": "Musk",
+    "bannerImg": "/images/banner.jpg",
+    "profileImg": "/images/profile.jpg",
+    "headLine": "CEO @ Tesla | Owner @ Twitter",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar, urna non dapibus pellentesque, nisl leo tincidunt risus, vel egestas nunc massa sed eros. Proin sagittis ex facilisis, tempus dui et, sollicitudin metus. Pellentesque tincidunt lectus imperdiet quam cursus sollicitudin. Nulla eget metus mattis, gravida elit in, placerat urna. Proin nibh est, sagittis eu risus et, pharetra bibendum neque. Aliquam ut varius nulla. Praesent eu cursus risus, eget condimentum risus.",
+    "experiences": [
+        {
+            "id": "1",
+            "companyName": "Tesla",
+            "companyLogo": "/images/tesla-logo.jpg",
+            "position": "CTO",
+            "employmentType": "Full-time",
+            "from": "Aug 1999",
+            "to": "Present",
+            "noOfYears": "25 yrs"
+        },
+        {
+            "id": "2",
+            "companyName": "Space X",
+            "companyLogo": "/images/spacex.png",
+            "position": "Founder, CEO, CTO",
+            "employmentType": "Full-time",
+            "from": "Aug 2002",
+            "to": "Present",
+            "noOfYears": "23 yrs"
+        },
+        {
+            "id": "3",
+            "companyName": "X (Twitter)",
+            "companyLogo": "/images/x.png",
+            "position": "CEO",
+            "employmentType": "Full-time",
+            "from": "Oct 2022",
+            "to": "Jun 2023",
+            "noOfYears": "1 yr"
+        }
+    ],
+    "educations": [
+        {
+            "id": "1",
+            "instituteName": "Stanford University",
+            "instituteLogo": "/images/stanford-logo.jpg",
+            "program": "PhD Program in material science",
+            "percentage": "99.99%",
+            "from": "Aug 1995",
+            "to": "Aug 1997"
+        },
+        {
+            "id": "2",
+            "instituteName": "University of Pennsylvania",
+            "instituteLogo": "/images/pennsylvania.png",
+            "program": "B.S., Economics",
+            "percentage": "99.99%",
+            "from": "Jan 1993",
+            "to": "Aug 1995"
+        },
+        {
+            "id": "3",
+            "instituteName": "University of Pennsylvania",
+            "instituteLogo": "/images/pennsylvania.png",
+            "program": "B.A., - Physics",
+            "percentage": "99.99%",
+            "from": "Jan 1993",
+            "to": "Aug 1995"
+        }
+    ],
+    "projects": [
+        {
+            "projectId": 1,
+            "projectName": "Arlcix",
+            "timeline": "Aug 2024 - Sep 2024",
+            "oneLiner": "An Open Source CLI for Component Generation in React.",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae?",
+            "images": [
+                "/images/arclix1.png",
+                "/images/arclix2.png",
+                "/images/arclix3.png",
+                "/images/arclix4.png",
+                "/images/arclix.png"
+            ],
+            "githubUrl": "https://github.com/arclix/core"
+        },
+        {
+            "projectId": 2,
+            "projectName": "Colorgrad",
+            "timeline": "Jan 2022 - Apr 2022",
+            "oneLiner": "Colors Give Life to Your Websites",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae?",
+            "images": [
+                "/images/colorgrad1.png",
+                "/images/colorgrad2.png",
+                "/images/colorgrad3.png",
+                "/images/colorgrad.png"
+            ],
+            "githubUrl": "https://github.com/jitiendran/colorgrad-frontend"
+        },
+        {
+            "projectId": 3,
+            "projectName": "Cloud Clip",
+            "timeline": "Dec 2021 - Mar 2022",
+            "oneLiner": "Cloud Clip share text across globe",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic delectus ab nam aut odio! Quae dolorum necessitatibus cum maiores sit distinctio mollitia animi! Aut cum et eligendi voluptate rem quae?",
+            "images": [
+                "/images/cloudclip.png",
+                "/images/cloudclip1.png",
+                "/images/cloudclip2.png"
+            ],
+            "githubUrl": "https://github.com/jitiendran/Cloud-Clipboard"
+        }
+    ],
+    "skills": [
+        "Engineering",
+        "Web Development",
+        "Blockchain",
+        "Machine Learning",
+        "Artificial Intelligence"
+    ]
 }

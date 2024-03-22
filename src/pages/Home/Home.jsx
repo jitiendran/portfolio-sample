@@ -5,7 +5,13 @@ import List from "../../components/List/List";
 import data from "../../assets/data/data.json";
 import localStyles from "./Home.module.css";
 import useClassName from "../../hooks/useClassName";
-import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import {
+  BsBoxArrowUpRight,
+  BsGithub,
+  BsInstagram,
+  BsLinkedin,
+} from "react-icons/bs";
 
 const Home = () => {
   const cx = useClassName(localStyles);
@@ -70,9 +76,9 @@ const Home = () => {
               <div className={cx("justify-between")}>
                 <h4>{project.title}</h4>
                 <div className={cx("row-layout")}>
-                  <a href={`../${project.id}`}>
+                  <Link to={`project/${project.id}`}>
                     <BsBoxArrowUpRight size={20} />
-                  </a>
+                  </Link>
                   <a href={`${project.githubUrl}`} target="_blank">
                     <BsGithub size={20} />
                   </a>
@@ -84,6 +90,52 @@ const Home = () => {
             </li>
           ))}
         </List>
+      </Card>
+      <Card>
+        <h3>Skills</h3>
+        <div className={cx("grid")}>
+          {data.skills.map((skill) => (
+            <span key={skill} className={cx("pill")}>
+              {skill}
+            </span>
+          ))}
+        </div>
+      </Card>
+
+      <Card>
+        <div className={cx("footer")}>
+          <h4>Let's Connect</h4>
+          <p>
+            Feel free to write a feedback to{" "}
+            <a href="mailto:jitiendranjiji2000@gmail.com">Jitiendran</a>
+          </p>
+
+          <div className={cx("footer-flex")}>
+            <a
+              href="https://github.com/jitiendran"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsGithub /> Github
+            </a>
+            |
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram /> Instagram
+            </a>
+            |
+            <a
+              href="https://linkedin.in"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsLinkedin /> Linkedin
+            </a>
+          </div>
+        </div>
       </Card>
     </Page>
   );
